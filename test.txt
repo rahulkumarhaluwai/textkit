@@ -1,0 +1,3 @@
+i just completed my first pure rust project
+Rust is really a great programming language
+I LOVE IT
