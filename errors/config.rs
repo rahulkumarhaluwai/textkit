@@ -1,13 +1,13 @@
 use crate::error::TextkitError;
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, PartialEq)]
 pub enum Command {
     Search { pattern: String, file: String },
     Count { file: String },
     Case { mode: CaseMode, file: String },
 }
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, PartialEq)]
 pub enum CaseMode {
     Upper,
     Lower,
